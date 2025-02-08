@@ -13,6 +13,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <!-- custom css  -->
   <link rel="stylesheet" href="css/custom.css">
+
+  <!-- AOS  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
   <!-- swiffy slider  -->
   <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
     defer></script>
@@ -113,7 +117,7 @@
   <!-- navigation bar  -->
   <div class="container-fluid p-0">
     <header
-      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between border-bottom shadow-sm">
+      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between border-bottom shadow-sm gradiant2">
       <div class="col-md-3 mb-2 mb-md-0">
         <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
           <img class="img-fluid" src="static/mymantrana_logo.png" width="290" height="180"
@@ -182,32 +186,32 @@
   <!--/caurosel section  -->
 
   <!-- hero tabs  -->
-  <div class="container-fluid bg-primary p-2">
+  <div class="container-fluid gradiant p-2">
     <div class="container">
       <div class="row g-2 p-2">
         <div class="col-sm-3">
-          <div class="card">
+          <div class="card glow-card">
             <div class="card-body text-center">
               <h4 class="card-text">Chat with Us <i class="bi bi-whatsapp"></i> </h4>
             </div>
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="card">
+          <div class="card glow-card">
             <div class="card-body text-center">
               <h4 class="card-text">Book an Appointment <i class="bi bi-calendar2-check"></i> </h4>
             </div>
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="card">
+          <div class="card glow-card">
             <div class="card-body text-center">
               <h4 class="card-text">Birth Cart <i class="bi bi-file-earmark-break"></i> </h4>
             </div>
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="card">
+          <div class="card glow-card">
             <div class="card-body text-center">
               <h4 class="card-text">Self Tests <i class="bi bi-list-check"></i> </h4>
             </div>
@@ -320,20 +324,17 @@
   <!--/our services section  -->
 
   <!-- statistics section  -->
-  <div class="container-fluid p-4 bg-info">
+  <div class="container-fluid p-4 gradiant">
     <div class="container">
       <div class="row">
-        <div class="col-3">
-          <h2 class="fw-bold">200 + Sessions</h2>
+        <div class="col-4 text-center">
+          <h2 class="fw-bold"><i class="bi bi-incognito"></i> PRIVATE</h2>
         </div>
-        <div class="col-3">
-          <h2 class="fw-bold">Worldwide</h2>
+        <div class="col-4 text-center">
+          <h2 class="fw-bold"><i class="bi bi-shield-shaded"></i> SECURED</h2>
         </div>
-        <div class="col-3">
-          <h2 class="fw-bold">200 + Sessons</h2>
-        </div>
-        <div class="col-3">
-          <h2 class="fw-bold">200 + Sessons</h2>
+        <div class="col-4 text-center">
+          <h2 class="fw-bold"> <strong class="counter" id="count"></strong> + Happy Clints</h2>
         </div>
       </div>
     </div>
@@ -345,17 +346,16 @@
     <h1 class="text-center fw-bold">Meet Our counsellors</h1>
     <br>
     <div class="row g-2">
-      <div class="col-sm-6">
-        <div class="card mb-3">
+      <div class="col-sm-6" data-aos="fade-right" data-aos-offset="600">
+        <div class="card mb-3 glow-card">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="https://picsum.photos/400/350" class="img-fluid rounded-start" alt="...">
+              <img src="static/pkj.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h5 class="card-title">Prof. Pardeep Jain</h5>
+                <p class="card-text">( MBA, LL.M, Ph.D (Management), Diploma In Vedic Astrology, Certified Guidance and Meditation Expert )</p>
                 <button type="button" class="btn btn-primary btn-sm">Know More</button>
                 <button type="button" class="btn btn-secondary btn-sm">Book an Appointment</button>
               </div>
@@ -363,17 +363,16 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
-        <div class="card mb-3">
+      <div class="col-sm-6" data-aos="fade-left" data-aos-offset="600">
+        <div class="card mb-3 glow-card">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="https://picsum.photos/400/350" class="img-fluid rounded-start" alt="...">
+              <img src="static/skj.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+                <h5 class="card-title">Prof. Sarika Jain</h5>
+                <p class="card-text">(Ph.D, Parenting & Career Guidance Expert)</p>
                 <button type="button" class="btn btn-primary btn-sm">Know More</button>
                 <button type="button" class="btn btn-secondary btn-sm">Book an Appointment</button>
               </div>
@@ -605,6 +604,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+
+  <!-- AOS  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- AOS  -->
+
+  <!-- counter  -->
+  <script src="js/main.js" ></script>
 </body>
 
 </html>

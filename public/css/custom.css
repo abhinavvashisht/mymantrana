@@ -1,8 +1,27 @@
 .gradiant {
-    background: rgb(106, 13, 173);
-    background: linear-gradient(90deg, rgba(106, 13, 173, 1) 0%, rgba(65, 105, 225, 1) 35%, rgba(65, 105, 225, 1) 100%);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(117,86,204,1) 0%, rgba(213,105,167,1) 90% );
+}
+.gradiant2{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    /* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); */
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
 }
 
 h1 {
     font-family: cursive;
 }
+
+/* Glow Card when Hover  */
+
+/* Card container styling */
+.glow-card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border-radius: 15px;
+    /* border: transparent; */
+  }
+
+  /* Hover glow effect */
+  .glow-card:hover {
+    box-shadow: 0 5px 14px rgba(255, 230, 0, 0.6);
+    transform: translateY(-5px);
+  }
